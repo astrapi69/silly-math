@@ -1,7 +1,7 @@
 ## Change log
 ----------------------
 
-Version -SNAPSHOT
+Version 1
 -------------
 
 ADDED: 
