@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -34,6 +35,8 @@
 		<jobject-evaluate.version>${jobject-extensions.version}</jobject-evaluate.version>
 		<!-- TEST-OBJECTS version -->
 		<test-objects.version>5.0.1</test-objects.version>
+		<!-- COMMONS-MATH3 version -->
+		<commons-math3.version>3.6.1</commons-math3.version>
 	</properties>
 
 	<scm>
@@ -68,13 +71,23 @@
 				<artifactId>test-objects</artifactId>
 				<version>${test-objects.version}</version>
 			</dependency>
+			<!-- COMMONS-MATH3 DEPENDENCY -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-math3</artifactId>
+				<version>${commons-math3.version}</version>
+			</dependency>
 
 		</dependencies>
 
 	</dependencyManagement>
 
 	<dependencies>
-
+		<!-- COMMONS-MATH3 DEPENDENCY -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+		</dependency>
 		<!-- MEANBEAN DEPENDENCY -->
 		<dependency>
 			<groupId>org.meanbean</groupId>
@@ -88,7 +101,7 @@
 			<artifactId>jobject-evaluate</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>de.alpharogroup</groupId>
 			<artifactId>test-objects</artifactId>
