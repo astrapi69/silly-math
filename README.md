@@ -29,14 +29,14 @@ Than you can add the dependency to your dependencies:
 
 	<properties>
 			...
-		<!-- SILLY-COLLECTIONS version -->
+		<!-- SILLY-MATH version -->
 		<silly-math.version>1</silly-math.version>
 			...
 	</properties>
 			...
 		<dependencies>
 			...
-			<!-- SILLY-COLLECTIONS DEPENDENCY -->
+			<!-- SILLY-MATH DEPENDENCY -->
 			<dependency>
 				<groupId>de.alpharogroup</groupId>
 				<artifactId>silly-math</artifactId>
