@@ -9,6 +9,7 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math)
 [![Javadocs](http://www.javadoc.io/badge/de.alpharogroup/silly-math.svg)](http://www.javadoc.io/doc/de.alpharogroup/silly-math)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
+[![Donate](https://img.shields.io/badge/donate-❤-ff2244.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GVBTWLRAZ7HB8)
 
 </div>
 
