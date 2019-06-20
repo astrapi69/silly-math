@@ -15,6 +15,8 @@
 
 Utility library that holds math functions to make your life easier
 
+If you like this project put a ⭐ and donate
+
 ## License
 
 The source code comes under the liberal MIT License, making silly-math great for all types of applications.
