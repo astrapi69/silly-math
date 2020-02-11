@@ -9,10 +9,13 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math)
 [![Javadocs](http://www.javadoc.io/badge/de.alpharogroup/silly-math.svg)](http://www.javadoc.io/doc/de.alpharogroup/silly-math)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
+[![Donate](https://img.shields.io/badge/donate-❤-ff2244.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GVBTWLRAZ7HB8)
 
 </div>
 
 Utility library that holds math functions to make your life easier
+
+If you like this project put a ⭐ and donate
 
 ## License
 
@@ -29,14 +32,14 @@ Than you can add the dependency to your dependencies:
 
 	<properties>
 			...
-		<!-- SILLY-COLLECTIONS version -->
-		<silly-math.version>1</silly-math.version>
+		<!-- SILLY-MATH version -->
+		<silly-math.version>1.1</silly-math.version>
 			...
 	</properties>
 			...
 		<dependencies>
 			...
-			<!-- SILLY-COLLECTIONS DEPENDENCY -->
+			<!-- SILLY-MATH DEPENDENCY -->
 			<dependency>
 				<groupId>de.alpharogroup</groupId>
 				<artifactId>silly-math</artifactId>
@@ -44,6 +47,24 @@ Than you can add the dependency to your dependencies:
 			</dependency>
 			...
 		</dependencies>
+	
+			
+## gradle dependency
+
+You can first define the version in the ext section and add than the following gradle dependency to your project `build.gradle` if you want to import the core functionality of file-worker:
+
+```
+ext {
+			...
+    sillyMathVersion = "1.1"
+			...
+}
+dependencies {
+			...
+compile("de.alpharogroup:file-worker:$sillyMathVersion")
+			...
+}
+```
 
 ## Semantic Versioning
 
