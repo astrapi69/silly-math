@@ -26,7 +26,6 @@ dependencies {
     testCompile("org.testng:testng:$testngVersion")
 }
 
-
 license {
     ext.year="2015"
     ext.owner="Asterios Raptis"

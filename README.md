@@ -61,7 +61,7 @@ ext {
 }
 dependencies {
 			...
-compile("de.alpharogroup:file-worker:$sillyMathVersion")
+compile("de.alpharogroup:silly-math:$sillyMathVersion")
 			...
 }
 ```
