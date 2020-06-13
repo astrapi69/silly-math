@@ -117,50 +117,21 @@ public final class MathExtensions
 	public static boolean isBetween(final double min, final double max, final double index,
 		final boolean includeMin, final boolean includeMax)
 	{
-		if (includeMin && includeMax)
-		{
-
-			if (index >= min && index <= max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
-		}
 		if (includeMin && !includeMax)
 		{
 
-			if (index >= min && index < max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return (index >= min && index < max);
 		}
 		if (!includeMin && includeMax)
 		{
 
-			if (index > min && index <= max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return (index > min && index <= max);
 		}
-		if (min < index && index < max)
+		if (includeMin && includeMax)
 		{
-			return true;
+			return (index >= min && index <= max);
 		}
-		else
-		{
-			return false;
-		}
+		return (min < index && index < max);
 	}
 
 	/**
@@ -198,50 +169,22 @@ public final class MathExtensions
 	public static boolean isBetween(final float min, final float max, final float index,
 		final boolean includeMin, final boolean includeMax)
 	{
-		if (includeMin && includeMax)
-		{
-
-			if (index >= min && index <= max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
-		}
 		if (includeMin && !includeMax)
 		{
 
-			if (index >= min && index < max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return (index >= min && index < max);
 		}
 		if (!includeMin && includeMax)
 		{
 
-			if (index > min && index <= max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return (index > min && index <= max);
 		}
-		if (min < index && index < max)
+		if (includeMin && includeMax)
 		{
-			return true;
+
+			return (index >= min && index <= max);
 		}
-		else
-		{
-			return false;
-		}
+		return (min < index && index < max);
 	}
 
 	/**
@@ -279,50 +222,22 @@ public final class MathExtensions
 	public static boolean isBetween(final int min, final int max, final int index,
 		final boolean includeMin, final boolean includeMax)
 	{
-		if (includeMin && includeMax)
-		{
-
-			if (index >= min && index <= max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
-		}
 		if (includeMin && !includeMax)
 		{
 
-			if (index >= min && index < max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return (index >= min && index < max);
 		}
 		if (!includeMin && includeMax)
 		{
 
-			if (index > min && index <= max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return (index > min && index <= max);
 		}
-		if (min < index && index < max)
+		if (includeMin && includeMax)
 		{
-			return true;
+
+			return (index >= min && index <= max);
 		}
-		else
-		{
-			return false;
-		}
+		return (min < index && index < max);
 	}
 
 	/**
@@ -360,50 +275,22 @@ public final class MathExtensions
 	public static boolean isBetween(final long min, final long max, final long index,
 		final boolean includeMin, final boolean includeMax)
 	{
-		if (includeMin && includeMax)
-		{
-
-			if (index >= min && index <= max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
-		}
 		if (includeMin && !includeMax)
 		{
 
-			if (index >= min && index < max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return (index >= min && index < max);
 		}
 		if (!includeMin && includeMax)
 		{
 
-			if (index > min && index <= max)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return (index > min && index <= max);
 		}
-		if (min < index && index < max)
+		if (includeMin && includeMax)
 		{
-			return true;
+
+			return (index >= min && index <= max);
 		}
-		else
-		{
-			return false;
-		}
+		return (min < index && index < max);
 	}
 
 	/**
@@ -680,6 +567,19 @@ public final class MathExtensions
 			System.out.println(prime + " is a prime number");
 		}
 		return primes;
+	}
+
+	/**
+	 * Calculates the percentage of the given value
+	 *
+	 * @param value
+	 *            The value
+	 * @param percentage
+	 *            The percentage
+	 * @return the result of the percentage of the given value
+	 */
+	public static double percentageOf(double value, double percentage) {
+		return percentage * value / 100;
 	}
 
 	private MathExtensions()

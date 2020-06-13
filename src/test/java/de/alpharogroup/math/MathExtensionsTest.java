@@ -24,46 +24,49 @@
  */
 package de.alpharogroup.math;
 
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertFalse;
-import static org.testng.AssertJUnit.assertTrue;
-
+import org.junit.jupiter.api.AfterEach;
 import org.meanbean.test.BeanTester;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 
-import de.alpharogroup.BaseTestCase;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * The unit test class for the class {@link MathExtensions}.
  */
-public class MathExtensionsTest extends BaseTestCase
+public class MathExtensionsTest
 {
 
-	/**
-	 * Sets up method will be invoked before every unit test method in this class.
-	 *
-	 * @throws Exception
-	 *             the exception
-	 */
-	@Override
-	@BeforeMethod
-	protected void setUp() throws Exception
-	{
+	boolean actual;
+	boolean expected;
+	@AfterEach
+	public void cleanUpEach(){
 		actual = false;
 	}
-
 	/**
-	 * Tear down method will be invoked after every unit test method in this class.
-	 *
-	 * @throws Exception
-	 *             the exception
+	 * Test method for {@link MathExtensions#percentageOf(double, double)}
 	 */
-	@Override
-	@AfterMethod
-	protected void tearDown() throws Exception
+	@Test public void testPercentageOf()
 	{
+		double actual;
+		double expected;
+
+		// new scenario...
+		actual = MathExtensions.percentageOf( 100.0, 12.8);
+		expected = 12.8;
+		assertEquals(actual, expected);
+
+		// new scenario...
+		actual = MathExtensions.percentageOf( 100.0, 100.0);
+		expected = 100.0;
+		assertEquals(actual, expected);
+
+		// new scenario...
+		actual = MathExtensions.percentageOf( 1000000.0, 15.0);
+		expected = 150000.0;
+		assertEquals(actual, expected);
 	}
 
 	/**
@@ -1177,7 +1180,7 @@ public class MathExtensionsTest extends BaseTestCase
 		assertEquals(actual, expected);
 
 		actual = MathExtensions.isPrime(14.0D);
-		assertFalse("", actual);
+		assertFalse(actual);
 
 		actual = MathExtensions.isPrime(15.0D);
 		expected = false;
@@ -1265,7 +1268,7 @@ public class MathExtensionsTest extends BaseTestCase
 		assertEquals(actual, expected);
 
 		actual = MathExtensions.isPrime(14.0F);
-		assertFalse("", actual);
+		assertFalse(actual);
 
 		actual = MathExtensions.isPrime(15.0F);
 		expected = false;
@@ -1351,7 +1354,7 @@ public class MathExtensionsTest extends BaseTestCase
 		assertEquals(actual, expected);
 
 		actual = MathExtensions.isPrime(14);
-		assertFalse("", actual);
+		assertFalse(actual);
 
 		actual = MathExtensions.isPrime(15);
 		expected = false;
@@ -1439,7 +1442,7 @@ public class MathExtensionsTest extends BaseTestCase
 		assertEquals(actual, expected);
 
 		actual = MathExtensions.isPrime(14L);
-		assertFalse("", actual);
+		assertFalse(actual);
 
 		actual = MathExtensions.isPrime(15L);
 		expected = false;
@@ -1525,7 +1528,7 @@ public class MathExtensionsTest extends BaseTestCase
 		assertEquals(actual, expected);
 
 		actual = MathExtensions.isPrimeNumber(14);
-		assertFalse("", actual);
+		assertFalse(actual);
 
 		actual = MathExtensions.isPrimeNumber(15);
 		expected = false;
@@ -1559,7 +1562,7 @@ public class MathExtensionsTest extends BaseTestCase
 		for (int i = 0; i < compare.length; i++)
 		{
 			actual = expected[i] == compare[i];
-			assertTrue("", actual);
+			assertTrue(actual);
 		}
 	}
 

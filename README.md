@@ -33,7 +33,7 @@ Than you can add the dependency to your dependencies:
 	<properties>
 			...
 		<!-- SILLY-MATH version -->
-		<silly-math.version>1.1</silly-math.version>
+		<silly-math.version>2</silly-math.version>
 			...
 	</properties>
 			...
@@ -56,12 +56,12 @@ You can first define the version in the ext section and add than the following g
 ```
 ext {
 			...
-    sillyMathVersion = "1.1"
+    sillyMathVersion = "2"
 			...
 }
 dependencies {
 			...
-compile("de.alpharogroup:file-worker:$sillyMathVersion")
+compile("de.alpharogroup:silly-math:$sillyMathVersion")
 			...
 }
 ```
