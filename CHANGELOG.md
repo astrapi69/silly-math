@@ -1,8 +1,18 @@
 ## Change log
 ----------------------
 
-Version 1.2-SNAPSHOT
+Version 2-SNAPSHOT
 -------------
+
+ADDED: 
+
+- new method that calculates the result of the given percentage, and a given value 
+- added java area in build.gradle for activate support of module path inference
+
+CHANGED:
+
+- update to jdk version 11
+- update gradle to new version 6.5
 
 Version 1.1
 -------------
