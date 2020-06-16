@@ -33,7 +33,7 @@ Than you can add the dependency to your dependencies:
 	<properties>
 			...
 		<!-- SILLY-MATH version -->
-		<silly-math.version>2</silly-math.version>
+		<silly-math.version>1.2</silly-math.version>
 			...
 	</properties>
 			...
@@ -56,7 +56,7 @@ You can first define the version in the ext section and add than the following g
 ```
 ext {
 			...
-    sillyMathVersion = "2"
+    sillyMathVersion = "1.2"
 			...
 }
 dependencies {

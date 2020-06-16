@@ -1,10 +1,7 @@
 ## Change log
 ----------------------
 
-Version 2.1-SNAPSHOT
--------------
-
-Version 2
+Version 1.2
 -------------
 
 ADDED: 
@@ -15,7 +12,6 @@ ADDED:
 
 CHANGED:
 
-- update to jdk version 11
 - update gradle to new version 6.5
 - remove of test-dependency testng 
 - extracted project properties to gradle.properties
