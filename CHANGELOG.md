@@ -4,6 +4,14 @@
 Version 2.1-SNAPSHOT
 -------------
 
+ADDED: 
+
+- new method for the formula from rule of three in a proportional manner created
+
+CHANGED:
+
+- code coverage increased to 100%
+
 Version 2
 -------------
 
