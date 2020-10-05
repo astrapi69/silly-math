@@ -582,6 +582,68 @@ public final class MathExtensions
 		return percentage * value / 100;
 	}
 
+	/**
+	 * Calculates the percentage of the given value
+	 *
+	 * @param value
+	 *            The value
+	 * @param percentage
+	 *            The percentage
+	 * @return the result of the percentage of the given value
+	 */
+	public static double percentageOf(float value, float percentage) {
+		return percentage * value / 100;
+	}
+
+	/**
+	 * Calculates the percentage of the given value
+	 *
+	 * @param value
+	 *            The value
+	 * @param percentage
+	 *            The percentage
+	 * @return the result of the percentage of the given value
+	 */
+	public static double percentageOf(int value, int percentage) {
+		return percentage * value / 100;
+	}
+
+	/**
+	 * Calculates the percentage of the given value
+	 *
+	 * @param value
+	 *            The value
+	 * @param percentage
+	 *            The percentage
+	 * @return the result of the percentage of the given value
+	 */
+	public static double percentageOf(long value, long percentage) {
+		return percentage * value / 100;
+	}
+
+	/**
+	 * Calculates the formula from rule of three in a proportional manner <br>
+	 *
+	 * Example: if 2 souflaki costs 8 dollar how much costs 5 souflaki <br>
+	 * so a is 2 souflaki<br>
+	 *     and b is 8 dollar<br>
+	 *         and c is 5 souflaki<br><br>
+	 *
+	 *         return x which is 20 dollar
+	 *
+	 * @param a
+	 *            the first value
+	 * @param b
+	 *            the second value
+	 * @param c
+	 *            the third value
+	 * @return the result of the rule of three in a proportional manner
+	 */
+	public static double ruleOfThreeProportional(double a, double b, double c) {
+		double oneItemValue = b/a;
+		return oneItemValue * c;
+	}
+
 	private MathExtensions()
 	{
 	}

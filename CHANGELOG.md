@@ -1,5 +1,17 @@
 ## Change log
 ----------------------
+Version 1.3-SNAPSHOT
+-------------
+
+ADDED: 
+
+- new method for the formula from rule of three in a proportional manner created
+- new jar area for generate manifest file in generated jar file
+
+CHANGED:
+
+- code coverage increased to 100%
+- extracted project gradle plugin versions from buildscript area in to gradle.properties
 
 Version 1.2
 -------------
