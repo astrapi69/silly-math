@@ -18,6 +18,7 @@ CHANGED:
 - code coverage increased to 100%
 - extracted project gradle plugin versions from buildscript area in to gradle.properties
 - update test-dependency junit-jupiter (junit 5) to new version 5.7.0
+- change provider of code coverage to codecov.io
 
 Version 1.2
 -------------
