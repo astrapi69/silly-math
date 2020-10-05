@@ -28,12 +28,14 @@ Check out [sonatype repository](https://oss.sonatype.org/index.html#nexus-search
 
 Add the following maven dependency to your project `pom.xml` if you want to import the core functionality of silly-math:
 
+For development with jdk 1.8 use following version:
+
 Than you can add the dependency to your dependencies:
 
 	<properties>
 			...
 		<!-- SILLY-MATH version -->
-		<silly-math.version>1.2</silly-math.version>
+		<silly-math.version>1.3</silly-math.version>
 			...
 	</properties>
 			...
@@ -56,7 +58,7 @@ You can first define the version in the ext section and add than the following g
 ```
 ext {
 			...
-    sillyMathVersion = "1.2"
+    sillyMathVersion = "1.3"
 			...
 }
 dependencies {
@@ -65,6 +67,8 @@ compile("de.alpharogroup:silly-math:$sillyMathVersion")
 			...
 }
 ```
+
+If you develop above jdk 11 you can use silly-math version 2.x and above.
 
 ## Semantic Versioning
 

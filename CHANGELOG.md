@@ -1,6 +1,7 @@
 ## Change log
 ----------------------
-Version 1.3-SNAPSHOT
+
+Version 1.3
 -------------
 
 ADDED: 
@@ -10,8 +11,10 @@ ADDED:
 
 CHANGED:
 
+- update gradle to new version 6.6.1
 - code coverage increased to 100%
 - extracted project gradle plugin versions from buildscript area in to gradle.properties
+- update test-dependency junit-jupiter (junit 5) to new version 5.7.0
 
 Version 1.2
 -------------
