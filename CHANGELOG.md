@@ -13,6 +13,7 @@ CHANGED:
 
 - code coverage increased to 100%
 - extracted project gradle plugin versions from buildscript area in to gradle.properties
+- change provider of code coverage to codecov.io
 
 Version 2
 -------------

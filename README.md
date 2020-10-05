@@ -4,7 +4,7 @@
 <div align="center">
 
 [![Build Status](https://travis-ci.org/astrapi69/silly-math.svg?branch=develop)](https://travis-ci.org/astrapi69/silly-math) 
-[![Coverage Status](https://coveralls.io/repos/github/astrapi69/silly-math/badge.svg?branch=develop)](https://coveralls.io/github/astrapi69/silly-math?branch=develop) 
+[![Coverage Status](https://codecov.io/gh/astrapi69/silly-math/branch/develop/graph/badge.svg)](https://codecov.io/gh/astrapi69/silly-math)
 [![Open Issues](https://img.shields.io/github/issues/astrapi69/silly-math.svg?style=flat)](https://github.com/astrapi69/silly-math/issues) 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math)
 [![Javadocs](http://www.javadoc.io/badge/de.alpharogroup/silly-math.svg)](http://www.javadoc.io/doc/de.alpharogroup/silly-math)
@@ -135,10 +135,10 @@ Open Source:
 |Special thanks to [sonatype repository](https://www.sonatype.com) for providing a free maven repository service for open source projects|
 |     <img width=1000/>     |
 
-|**coveralls.io**|
+|**codecov.io**|
 |     :---:      |
-|![Coverage Status](https://coveralls.io/repos/github/astrapi69/mystic-crypt/badge.svg)|
-|Special thanks to [coveralls.io](https://coveralls.io) for providing a free code coverage for open source projects|
+|[![Coverage Status](https://codecov.io/gh/astrapi69/silly-math/branch/develop/graph/badge.svg)](https://codecov.io/gh/astrapi69/silly-math)|
+|Special thanks to [codecov.io](https://codecov.io) for providing a free code coverage for open source projects|
 |     <img width=1000/>     |
 
 |**javadoc.io**|
