@@ -51,7 +51,16 @@ Than you can add the dependency to your dependencies:
 			
 ## gradle dependency
 
-You can first define the version in the ext section and add than the following gradle dependency to your project `build.gradle` if you want to import the core functionality of file-worker:
+You can first define the version in the ext section and add than the following gradle dependency to 
+your project `build.gradle` if you want to import the core functionality of silly-math:
+
+```
+define version in file gradle.properties
+
+sillyMathVersion=2
+```
+
+or in build.gradle ext area
 
 ```
 ext {
@@ -59,9 +68,14 @@ ext {
     sillyMathVersion = "2"
 			...
 }
+```
+
+and than add the dependency to the dependencies area
+
+```
 dependencies {
 			...
-compile("de.alpharogroup:silly-math:$sillyMathVersion")
+    implementation("de.alpharogroup:silly-math:$sillyMathVersion")
 			...
 }
 ```

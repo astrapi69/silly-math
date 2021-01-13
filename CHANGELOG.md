@@ -11,6 +11,9 @@ ADDED:
 
 CHANGED:
 
+- update gradle to new version 6.8
+- update dependency of com.github.ben-manes.versions.gradle.plugin to new version 0.36.0
+- update of test dependencies of junit-jupiter to new version 5.7.0
 - code coverage increased to 100%
 - extracted project gradle plugin versions from buildscript area in to gradle.properties
 - change provider of code coverage to codecov.io
