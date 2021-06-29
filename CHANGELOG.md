@@ -4,6 +4,16 @@
 Version 1.4-SNAPSHOT
 -------------
 
+ADDED:
+
+- new class for handle boolean values
+
+CHANGED:
+
+- update gradle to new version 6.9
+- update of com.github.ben-manes.versions.gradle.plugin to new version 0.39.0
+- update test-dependency junit-jupiter (junit 5) to new version 5.7.2
+
 Version 1.3
 -------------
 
