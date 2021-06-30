@@ -22,13 +22,17 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package de.alpharogroup.math;
+package io.github.astrapi69.math;
 
 /**
  * The class {@link BooleanExtensions} provides utility methods for handling with boolean values
  */
 public final class BooleanExtensions
 {
+
+	private BooleanExtensions()
+	{
+	}
 
 	/**
 	 * Decides over the given flags if the true-case or the false-case will be return.
@@ -83,10 +87,6 @@ public final class BooleanExtensions
 	public static boolean toBoolean(final Boolean value)
 	{
 		return value != null && value.booleanValue();
-	}
-
-	private BooleanExtensions()
-	{
 	}
 
 }

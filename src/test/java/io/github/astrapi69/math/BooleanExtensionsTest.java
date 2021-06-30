@@ -22,12 +22,12 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package de.alpharogroup.math;
+package io.github.astrapi69.math;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 import org.meanbean.test.BeanTester;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * The unit test class for the class {@link BooleanExtensions}.
@@ -38,7 +38,8 @@ public class BooleanExtensionsTest
 	/**
 	 * Test method for {@link BooleanExtensions#toBoolean(Boolean)}
 	 */
-	@Test public final void testToBoolean()
+	@Test
+	public final void testToBoolean()
 	{
 
 		boolean expected;
@@ -60,7 +61,8 @@ public class BooleanExtensionsTest
 	/**
 	 * Test method for {@link BooleanExtensions#trueOrFalse(Object, Object, boolean...)}
 	 */
-	@Test public final void testTrueOrFalse()
+	@Test
+	public final void testTrueOrFalse()
 	{
 		String expected;
 		String actual;
@@ -96,7 +98,8 @@ public class BooleanExtensionsTest
 	/**
 	 * Test method for {@link BooleanExtensions}
 	 */
-	@Test public void testWithBeanTester()
+	@Test
+	public void testWithBeanTester()
 	{
 		final BeanTester beanTester = new BeanTester();
 		beanTester.testBean(BooleanExtensions.class);

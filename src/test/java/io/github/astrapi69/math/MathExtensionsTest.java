@@ -22,16 +22,15 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package de.alpharogroup.math;
-
-import org.junit.jupiter.api.AfterEach;
-import org.meanbean.test.BeanTester;
-
-import org.junit.jupiter.api.Test;
+package io.github.astrapi69.math;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
+import org.meanbean.test.BeanTester;
 
 /**
  * The unit test class for the class {@link MathExtensions}.
@@ -41,15 +40,18 @@ public class MathExtensionsTest
 
 	boolean actual;
 	boolean expected;
+
 	@AfterEach
-	public void cleanUpEach(){
+	public void cleanUpEach()
+	{
 		actual = false;
 	}
 
 	/**
 	 * Test method for {@link MathExtensions#ruleOfThreeProportional(double, double, double)}
 	 */
-	@Test public void testruleOfThreeProportional()
+	@Test
+	public void testruleOfThreeProportional()
 	{
 		double actual;
 		double expected;
@@ -66,23 +68,24 @@ public class MathExtensionsTest
 	/**
 	 * Test method for {@link MathExtensions#percentageOf(double, double)}
 	 */
-	@Test public void testPercentageOfDoubleDouble()
+	@Test
+	public void testPercentageOfDoubleDouble()
 	{
 		double actual;
 		double expected;
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100.0d, 12.8d);
+		actual = MathExtensions.percentageOf(100.0d, 12.8d);
 		expected = 12.8d;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100.0d, 100.0d);
+		actual = MathExtensions.percentageOf(100.0d, 100.0d);
 		expected = 100.0d;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 1000000.0d, 15.0d);
+		actual = MathExtensions.percentageOf(1000000.0d, 15.0d);
 		expected = 150000.0d;
 		assertEquals(actual, expected);
 	}
@@ -90,23 +93,24 @@ public class MathExtensionsTest
 	/**
 	 * Test method for {@link MathExtensions#percentageOf(float, float)}
 	 */
-	@Test public void testPercentageOfFloatFloat()
+	@Test
+	public void testPercentageOfFloatFloat()
 	{
 		double actual;
 		double expected;
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100.0f, 12.8f);
+		actual = MathExtensions.percentageOf(100.0f, 12.8f);
 		expected = 12.800000190734863;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100.0f, 100.0f);
+		actual = MathExtensions.percentageOf(100.0f, 100.0f);
 		expected = 100.0;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 1000000.0f, 15.0f);
+		actual = MathExtensions.percentageOf(1000000.0f, 15.0f);
 		expected = 150000.0;
 		assertEquals(actual, expected);
 	}
@@ -114,23 +118,24 @@ public class MathExtensionsTest
 	/**
 	 * Test method for {@link MathExtensions#percentageOf(int, int)}
 	 */
-	@Test public void testPercentageOfIntInt()
+	@Test
+	public void testPercentageOfIntInt()
 	{
 		double actual;
 		double expected;
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100, 12);
+		actual = MathExtensions.percentageOf(100, 12);
 		expected = 12.0;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100, 100);
+		actual = MathExtensions.percentageOf(100, 100);
 		expected = 100.0;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 1000000, 15);
+		actual = MathExtensions.percentageOf(1000000, 15);
 		expected = 150000.0;
 		assertEquals(actual, expected);
 	}
@@ -138,23 +143,24 @@ public class MathExtensionsTest
 	/**
 	 * Test method for {@link MathExtensions#percentageOf(long, long)}
 	 */
-	@Test public void testPercentageOfLongLong()
+	@Test
+	public void testPercentageOfLongLong()
 	{
 		double actual;
 		double expected;
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100l, 12l);
+		actual = MathExtensions.percentageOf(100l, 12l);
 		expected = 12.0;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100l, 100l);
+		actual = MathExtensions.percentageOf(100l, 100l);
 		expected = 100.0;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 1000000l, 15l);
+		actual = MathExtensions.percentageOf(1000000l, 15l);
 		expected = 150000.0;
 		assertEquals(actual, expected);
 	}
