@@ -145,6 +145,8 @@ or over Monero(XMR) with:
 <img src="https://github.com/astrapi69/jgeohash/blob/master/src/main/resources/img/49bqeRQ7Bf49oJFVC72pqpe5hFbb62pfXDYPdLsadGGF81KZW2ZfrPZ8PbAVu5X2v1TYAspeczMya3cYQysNS4usRRPQHVw.png"
 alt="Donation Monero Wallet" width="250"/>
 
+or over the donation buttons at the top.
+
 ## Semantic Versioning
 
 The versions of silly-math are maintained with the Simplified Semantic Versioning guidelines.
