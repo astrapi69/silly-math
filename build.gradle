@@ -121,6 +121,7 @@ signing {
 license {
     ext.year="2015"
     ext.owner="Asterios Raptis"
+    ignoreFailures = true
     header rootProject.file("src/main/resources/LICENSE.txt")
     excludes(["**/README",
               "**/README.md",
@@ -184,7 +185,7 @@ jacocoTestReport {
 check.dependsOn jacocoTestReport
 
 dependencies {
-    testImplementation("de.alpharogroup:test-objects:$testObjectsVersion")
+    testImplementation("io.github.astrapi69:test-objects:$testObjectsVersion")
     testImplementation("org.meanbean:meanbean:$meanbeanVersion")
     testImplementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitJupiterVersion")

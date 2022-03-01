@@ -169,17 +169,17 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.percentageOf( 100l, 12l, 40l);
-		expected = 40.0;
+		expected = 0.2;
 		assertEquals(actual, expected);
 
 		// new scenario...
 		actual = MathExtensions.percentageOf( 100l, 100l, 50l);
-		expected = 50.0;
+		expected = 0.02;
 		assertEquals(actual, expected);
 
 		// new scenario...
 		actual = MathExtensions.percentageOf( 1000000l, 15l, 10000l);
-		expected = 150000.0;
+		expected = 6.6666;
 		assertEquals(actual, expected);
 	}
 
