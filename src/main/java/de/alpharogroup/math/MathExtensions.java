@@ -622,6 +622,22 @@ public final class MathExtensions
 	}
 
 	/**
+	 * Calculates the percentage of the given last given value 
+	 *
+	 * @param value
+	 *            The value
+	 * @param percentage
+	 *            The percentage
+	 * @param valueOfHowMuchPercentageOf
+	 *            The value of how much percentage of
+	 * @return the result of the percentage of the given value
+	 */
+	public static double percentageOf(long value, long percentage, long valueOfHowMuchPercentageOf) {
+		double result = (value / percentage);
+		return result /(double)valueOfHowMuchPercentageOf;
+	}
+
+	/**
 	 * Calculates the formula from rule of three in a proportional manner <br>
 	 *
 	 * Example: if 2 souflaki costs 8 dollar how much costs 5 souflaki <br>

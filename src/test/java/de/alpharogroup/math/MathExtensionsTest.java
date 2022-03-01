@@ -82,8 +82,8 @@ public class MathExtensionsTest
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 1000000.0d, 15.0d);
-		expected = 150000.0d;
+		actual = MathExtensions.percentageOf( 1000000.0d, 1.0d);
+		expected = 10000.0d;
 		assertEquals(actual, expected);
 	}
 
@@ -155,6 +155,30 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.percentageOf( 1000000l, 15l);
+		expected = 150000.0;
+		assertEquals(actual, expected);
+	}
+
+	/**
+	 * Test method for {@link MathExtensions#percentageOf(long, long)}
+	 */
+	@Test public void testPercentageOfLongLongValueOfHowMuchPercentageOf()
+	{
+		double actual;
+		double expected;
+
+		// new scenario...
+		actual = MathExtensions.percentageOf( 100l, 12l, 40l);
+		expected = 40.0;
+		assertEquals(actual, expected);
+
+		// new scenario...
+		actual = MathExtensions.percentageOf( 100l, 100l, 50l);
+		expected = 50.0;
+		assertEquals(actual, expected);
+
+		// new scenario...
+		actual = MathExtensions.percentageOf( 1000000l, 15l, 10000l);
 		expected = 150000.0;
 		assertEquals(actual, expected);
 	}
