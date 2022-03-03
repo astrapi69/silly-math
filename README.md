@@ -1,21 +1,27 @@
-# silly-math
 # Overview
 
-<div align="center">
+<div style="text-align: center">
 
-[![Build Status](https://travis-ci.org/astrapi69/silly-math.svg?branch=develop)](https://travis-ci.org/astrapi69/silly-math) 
+[![Java CI with Gradle](https://github.com/astrapi69/silly-math/actions/workflows/gradle.yml/badge.svg)](https://github.com/astrapi69/silly-math/actions/workflows/gradle.yml)
 [![Coverage Status](https://codecov.io/gh/astrapi69/silly-math/branch/develop/graph/badge.svg)](https://codecov.io/gh/astrapi69/silly-math)
 [![Open Issues](https://img.shields.io/github/issues/astrapi69/silly-math.svg?style=flat)](https://github.com/astrapi69/silly-math/issues) 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math)
 [![Javadocs](http://www.javadoc.io/badge/de.alpharogroup/silly-math.svg)](http://www.javadoc.io/doc/de.alpharogroup/silly-math)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![Donate](https://img.shields.io/badge/donate-❤-ff2244.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GVBTWLRAZ7HB8)
+[![Hits Of Code](https://hitsofcode.com/github/astrapi69/silly-math?branch=develop)](https://hitsofcode.com/github/astrapi69/silly-math/view?branch=develop)
 
 </div>
 
 Utility library that holds math functions to make your life easier
 
-If you like this project put a ⭐ and donate
+> Please support this project by simply putting a Github <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/astrapi69/silly-math" data-icon="octicon-star" aria-label="Star astrapi69/silly-math on GitHub">Star ⭐</a>
+>
+> Share this library with friends on Twitter and everywhere else you can
+>
+> If you love this project [![donation](https://img.shields.io/badge/donate-❤-ff2244.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GVBTWLRAZ7HB8)
+
 
 ## License
 
