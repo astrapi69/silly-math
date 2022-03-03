@@ -168,23 +168,24 @@ public class MathExtensionsTest
 	/**
 	 * Test method for {@link MathExtensions#percentageOf(long, long)}
 	 */
-	@Test public void testPercentageOfLongLongValueOfHowMuchPercentageOf()
+	@Test
+	public void testPercentageOfLongLongValueOfHowMuchPercentageOf()
 	{
 		double actual;
 		double expected;
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100l, 12l, 40l);
+		actual = MathExtensions.percentageOf(100l, 12l, 40l);
 		expected = 0.2;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 100l, 100l, 50l);
+		actual = MathExtensions.percentageOf(100l, 100l, 50l);
 		expected = 0.02;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf( 1000000l, 15l, 10000l);
+		actual = MathExtensions.percentageOf(1000000l, 15l, 10000l);
 		expected = 6.6666;
 		assertEquals(actual, expected);
 	}

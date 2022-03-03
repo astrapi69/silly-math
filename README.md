@@ -4,7 +4,7 @@
 
 [![Java CI with Gradle](https://github.com/astrapi69/silly-math/actions/workflows/gradle.yml/badge.svg)](https://github.com/astrapi69/silly-math/actions/workflows/gradle.yml)
 [![Coverage Status](https://codecov.io/gh/astrapi69/silly-math/branch/develop/graph/badge.svg)](https://codecov.io/gh/astrapi69/silly-math)
-[![Open Issues](https://img.shields.io/github/issues/astrapi69/silly-math.svg?style=flat)](https://github.com/astrapi69/silly-math/issues) 
+[![Open Issues](https://img.shields.io/github/issues/astrapi69/silly-math.svg?style=flat)](https://github.com/astrapi69/silly-math/issues)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/silly-math)
 [![Javadocs](http://www.javadoc.io/badge/io.github.astrapi69/silly-math.svg)](http://www.javadoc.io/doc/de.alpharogroup/silly-math)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
@@ -40,23 +40,23 @@ For development with jdk 1.8 use following version:
 
 Than you can add the dependency to your dependencies:
 
-	<properties>
-			...
-		<!-- SILLY-MATH version -->
-		<silly-math.version>1.4</silly-math.version>
-			...
-	</properties>
-			...
-		<dependencies>
-			...
-			<!-- SILLY-MATH DEPENDENCY -->
-			<dependency>
-				<groupId>io.github.astrapi69</groupId>
-				<artifactId>silly-math</artifactId>
-				<version>${silly-math.version}</version>
-			</dependency>
-			...
-		</dependencies>
+    <properties>
+            ...
+        <!-- SILLY-MATH version -->
+        <silly-math.version>1.4</silly-math.version>
+            ...
+    </properties>
+            ...
+        <dependencies>
+            ...
+            <!-- SILLY-MATH DEPENDENCY -->
+            <dependency>
+                <groupId>io.github.astrapi69</groupId>
+                <artifactId>silly-math</artifactId>
+                <version>${silly-math.version}</version>
+            </dependency>
+            ...
+        </dependencies>
 
 ## gradle dependency
 
@@ -74,9 +74,9 @@ or in build.gradle ext area
 
 ```
 ext {
-			...
+            ...
     sillyMathVersion = "1.4"
-			...
+            ...
 }
 ```
 
@@ -84,9 +84,9 @@ and then add the dependency to the dependencies area
 
 ```
 dependencies {
-			...
+            ...
 compile("io.github.astrapi69:silly-math:$sillyMathVersion")
-			...
+            ...
 }
 ```
 

@@ -630,7 +630,7 @@ public final class MathExtensions
 	}
 
 	/**
-	 * Calculates the percentage of the given last given value 
+	 * Calculates the percentage of the given last given value
 	 *
 	 * @param value
 	 *            The value
@@ -640,9 +640,10 @@ public final class MathExtensions
 	 *            The value of how much percentage of
 	 * @return the result of the percentage of the given value
 	 */
-	public static double percentageOf(long value, long percentage, long valueOfHowMuchPercentageOf) {
+	public static double percentageOf(long value, long percentage, long valueOfHowMuchPercentageOf)
+	{
 		double result = (value / percentage);
-		return result /(double)valueOfHowMuchPercentageOf;
+		return result / (double)valueOfHowMuchPercentageOf;
 	}
 
 	/**

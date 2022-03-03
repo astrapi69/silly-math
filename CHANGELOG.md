@@ -1,6 +1,23 @@
 ## Change log
 ----------------------
 
+Version 2-SNAPSHOT
+-------------
+
+ADDED:
+
+- new method for the formula from rule of three in a proportional manner created
+- new jar area for generate manifest file in generated jar file
+
+CHANGED:
+
+- update gradle to new version 6.8
+- update dependency of com.github.ben-manes.versions.gradle.plugin to new version 0.42.0
+- update of test dependencies of junit-jupiter to new version 5.8.2
+- code coverage increased to 100%
+- extracted project gradle plugin versions from buildscript area in to gradle.properties
+- change provider of code coverage to codecov.io
+
 Version 1.4
 -------------
 
