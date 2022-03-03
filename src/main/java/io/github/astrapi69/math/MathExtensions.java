@@ -22,7 +22,7 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package de.alpharogroup.math;
+package io.github.astrapi69.math;
 
 /**
  * Utility class for the use numbers.
@@ -32,6 +32,10 @@ package de.alpharogroup.math;
  */
 public final class MathExtensions
 {
+	private MathExtensions()
+	{
+	}
+
 	/**
 	 * Gets the number of digits from the given <code>int</code> number.
 	 *
@@ -578,7 +582,8 @@ public final class MathExtensions
 	 *            The percentage
 	 * @return the result of the percentage of the given value
 	 */
-	public static double percentageOf(double value, double percentage) {
+	public static double percentageOf(double value, double percentage)
+	{
 		return percentage * value / 100;
 	}
 
@@ -591,7 +596,8 @@ public final class MathExtensions
 	 *            The percentage
 	 * @return the result of the percentage of the given value
 	 */
-	public static double percentageOf(float value, float percentage) {
+	public static double percentageOf(float value, float percentage)
+	{
 		return percentage * value / 100;
 	}
 
@@ -604,7 +610,8 @@ public final class MathExtensions
 	 *            The percentage
 	 * @return the result of the percentage of the given value
 	 */
-	public static double percentageOf(int value, int percentage) {
+	public static double percentageOf(int value, int percentage)
+	{
 		return percentage * value / 100;
 	}
 
@@ -617,7 +624,8 @@ public final class MathExtensions
 	 *            The percentage
 	 * @return the result of the percentage of the given value
 	 */
-	public static double percentageOf(long value, long percentage) {
+	public static double percentageOf(long value, long percentage)
+	{
 		return percentage * value / 100;
 	}
 
@@ -642,10 +650,11 @@ public final class MathExtensions
 	 *
 	 * Example: if 2 souflaki costs 8 dollar how much costs 5 souflaki <br>
 	 * so a is 2 souflaki<br>
-	 *     and b is 8 dollar<br>
-	 *         and c is 5 souflaki<br><br>
+	 * and b is 8 dollar<br>
+	 * and c is 5 souflaki<br>
+	 * <br>
 	 *
-	 *         return x which is 20 dollar
+	 * return x which is 20 dollar
 	 *
 	 * @param a
 	 *            the first value
@@ -655,13 +664,10 @@ public final class MathExtensions
 	 *            the third value
 	 * @return the result of the rule of three in a proportional manner
 	 */
-	public static double ruleOfThreeProportional(double a, double b, double c) {
-		double oneItemValue = b/a;
-		return oneItemValue * c;
-	}
-
-	private MathExtensions()
+	public static double ruleOfThreeProportional(double a, double b, double c)
 	{
+		double oneItemValue = b / a;
+		return oneItemValue * c;
 	}
 
 }
