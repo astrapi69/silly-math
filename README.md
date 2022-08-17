@@ -1,5 +1,3 @@
-# silly-math
-
 # Overview
 
 <div style="text-align: center">
