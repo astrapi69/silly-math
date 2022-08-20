@@ -1,10 +1,19 @@
 ## Change log
 ----------------------
 
-Version 2.2-SNAPSHOT
+Version 2.2
 -------------
 
+ADDED:
 
+- new test dependency junit-jupiter-params for enable parameterized unit tests
+- new parameterized unit test class MathExtensionsParameterizedTest
+
+CHANGED:
+
+- update of jdk to version 11
+- update of gradle to new version 7.5.1
+- update of test dependencies of junit-jupiter to new version 5.9.0
 
 Version 2.1
 -------------

@@ -51,7 +51,7 @@ public class MathExtensionsTest
 	 * Test method for {@link MathExtensions#ruleOfThreeProportional(double, double, double)}
 	 */
 	@Test
-	public void testruleOfThreeProportional()
+	public void testRuleOfThreeProportional()
 	{
 		double actual;
 		double expected;
