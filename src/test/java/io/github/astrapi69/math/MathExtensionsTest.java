@@ -33,7 +33,7 @@ import org.junit.jupiter.api.Test;
 import org.meanbean.test.BeanTester;
 
 /**
- * The unit test class for the class {@link MathExtensions}.
+ * The unit test class for the class {@link MathExtensions}
  */
 public class MathExtensionsTest
 {
@@ -150,17 +150,17 @@ public class MathExtensionsTest
 		double expected;
 
 		// new scenario...
-		actual = MathExtensions.percentageOf(100l, 12l);
+		actual = MathExtensions.percentageOf(100L, 12L);
 		expected = 12.0;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf(100l, 100l);
+		actual = MathExtensions.percentageOf(100L, 100L);
 		expected = 100.0;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf(1000000l, 15l);
+		actual = MathExtensions.percentageOf(1000000L, 15L);
 		expected = 150000.0;
 		assertEquals(actual, expected);
 	}
@@ -175,17 +175,17 @@ public class MathExtensionsTest
 		double expected;
 
 		// new scenario...
-		actual = MathExtensions.percentageOf(100l, 12l, 40l);
+		actual = MathExtensions.percentageOf(100L, 12L, 40l);
 		expected = 0.2;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf(100l, 100l, 50l);
+		actual = MathExtensions.percentageOf(100L, 100L, 50l);
 		expected = 0.02;
 		assertEquals(actual, expected);
 
 		// new scenario...
-		actual = MathExtensions.percentageOf(1000000l, 15l, 10000l);
+		actual = MathExtensions.percentageOf(1000000L, 15L, 10000l);
 		expected = 6.6666;
 		assertEquals(actual, expected);
 	}
@@ -206,7 +206,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-1);
-		expected = 1;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -216,7 +215,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-10);
-		expected = 2;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -226,7 +224,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-100);
-		expected = 3;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -236,7 +233,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-1000);
-		expected = 4;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -246,7 +242,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-10000);
-		expected = 5;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -256,7 +251,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-100000);
-		expected = 6;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -266,7 +260,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-1000000);
-		expected = 7;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -276,7 +269,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-10000000);
-		expected = 8;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -286,7 +278,6 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-100000000);
-		expected = 9;
 		assertEquals(actual, expected);
 
 		// new scenario...
@@ -296,20 +287,15 @@ public class MathExtensionsTest
 
 		// new scenario...
 		actual = MathExtensions.getNumberOfDigits(-1000000000);
-		expected = 10;
 		assertEquals(actual, expected);
 
 		// new scenario with Integer.MAX_VALUE
 		actual = MathExtensions.getNumberOfDigits(2147483647);
-		expected = 10;
 		assertEquals(actual, expected);
 
 		// new scenario with Integer.MIN_VALUE
 		actual = MathExtensions.getNumberOfDigits(-2147483648);
-		expected = 10;
 		assertEquals(actual, expected);
-
-
 	}
 
 	/**
@@ -441,7 +427,7 @@ public class MathExtensionsTest
 		// third test case
 		index = min;
 		includeMin = false;
-		includeMax = true;
+		// includeMax = true;
 		actual = MathExtensions.isBetween(min, max, index, includeMin, includeMax);
 		expected = false;
 		assertEquals(actual, expected);
@@ -607,7 +593,7 @@ public class MathExtensionsTest
 		// third test case
 		index = min;
 		includeMin = false;
-		includeMax = true;
+		// includeMax = true;
 		actual = MathExtensions.isBetween(min, max, index, includeMin, includeMax);
 		expected = false;
 		assertEquals(actual, expected);
@@ -772,7 +758,7 @@ public class MathExtensionsTest
 		// third test case
 		index = min;
 		includeMin = false;
-		includeMax = true;
+		// includeMax = true;
 		actual = MathExtensions.isBetween(min, max, index, includeMin, includeMax);
 		expected = false;
 		assertEquals(actual, expected);

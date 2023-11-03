@@ -4,6 +4,20 @@
 Version 2.3-SNAPSHOT
 -------------
 
+ADDED:
+
+- new class Fibonacci for resolve fibonacci numbers
+- new required version info for dependency 'org.junit.platform:junit-platform-launcher' in current version 1.10.0
+
+CHANGED:
+
+- update of gradle to new version 8.4
+- update dependency of com.github.ben-manes.versions.gradle.plugin to new version 0.49.0
+- update of gradle-plugin dependency 'org.ajoberstar.grgit:grgit-gradle' to new version 5.2.1
+- update of gradle-plugin dependency of 'com.diffplug.spotless:spotless-plugin-gradle' in version 6.22.0
+- update of test dependency meanbean to the new milestone version 3.0.0-M9
+- update of test dependency junit-juniper-api to new version 5.10.0
+
 Version 2.2
 -------------
 

@@ -36,10 +36,23 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 /**
- * The parameterized unit test class for the class {@link MathExtensions}
+ * The unit test class for the class {@link MathExtensions} with parameterized input data
  */
 public class MathExtensionsParameterizedTest
 {
+
+	/**
+	 * Factory method for test data for Parameterized tests for the method
+	 * {@link MathExtensions#ruleOfThreeProportional(double, double, double)}
+	 *
+	 * @return test data for Parameterized tests for the method
+	 *         {@link MathExtensions#ruleOfThreeProportional(double, double, double)}
+	 */
+	private static Stream<Arguments> provideRuleOfThreeProportionalInputData()
+	{
+		return Stream.of(Arguments.of(2.0d, 8.0d, 5.0d, 20.0d),
+			Arguments.of(2.0d, 7.0d, 1.0d, 3.5d));
+	}
 
 	/**
 	 * Parameterized test method for {@link MathExtensions#percentageOf(double, double)}
@@ -82,19 +95,6 @@ public class MathExtensionsParameterizedTest
 	public void testRuleOfThreeProportional(double a, double b, double c, double expected)
 	{
 		assertEquals(expected, MathExtensions.ruleOfThreeProportional(a, b, c));
-	}
-
-	/**
-	 * Factory method for test data for Parameterized tests for the method
-	 * {@link MathExtensions#ruleOfThreeProportional(double, double, double)}
-	 * 
-	 * @return test data for Parameterized tests for the method
-	 *         {@link MathExtensions#ruleOfThreeProportional(double, double, double)}
-	 */
-	private static Stream<Arguments> provideRuleOfThreeProportionalInputData()
-	{
-		return Stream.of(Arguments.of(2.0d, 8.0d, 5.0d, 20.0d),
-			Arguments.of(2.0d, 7.0d, 1.0d, 3.5d));
 	}
 
 }
