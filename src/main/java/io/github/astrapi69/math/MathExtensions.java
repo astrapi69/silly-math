@@ -37,6 +37,30 @@ public final class MathExtensions
 	}
 
 	/**
+	 * Gets the factorial long from the given <code>long</code> number
+	 *
+	 * @param number
+	 *            the number
+	 * @return the factorial of the given number
+	 */
+	public static long factorial(long number)
+	{
+		return number == 1 || number == 0 ? 1 : number * factorial(number - 1);
+	}
+
+	/**
+	 * Gets the factorial integer from the given <code>int</code> number
+	 *
+	 * @param number
+	 *            the number
+	 * @return the factorial of the given number
+	 */
+	public static int factorial(int number)
+	{
+		return number == 1 || number == 0 ? 1 : number * factorial(number - 1);
+	}
+
+	/**
 	 * Gets the number of digits from the given <code>int</code> number.
 	 *
 	 * @param number

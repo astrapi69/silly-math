@@ -4,6 +4,9 @@
 Version 2.4-SNAPSHOT
 -------------
 
+ADDED:
+
+- new methods for the factorial for int and long values
 
 
 Version 2.3

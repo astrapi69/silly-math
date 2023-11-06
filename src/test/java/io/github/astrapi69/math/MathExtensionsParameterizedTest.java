@@ -42,6 +42,26 @@ public class MathExtensionsParameterizedTest
 {
 
 	/**
+	 * Parameterized test method for {@link MathExtensions#factorial(long)}
+	 */
+	@ParameterizedTest
+	@CsvSource({ "6, 720", "5, 120", "4, 24", "3, 6", "2, 2", "1, 1" })
+	public void testFactorial(long value, long expected)
+	{
+		assertEquals(expected, MathExtensions.factorial(value));
+	}
+
+	/**
+	 * Parameterized test method for {@link MathExtensions#factorial(int)}
+	 */
+	@ParameterizedTest
+	@CsvSource({ "6, 720", "5, 120", "4, 24", "3, 6", "2, 2", "1, 1" })
+	public void testFactorial(int value, int expected)
+	{
+		assertEquals(expected, MathExtensions.factorial(value));
+	}
+
+	/**
 	 * Factory method for test data for Parameterized tests for the method
 	 * {@link MathExtensions#ruleOfThreeProportional(double, double, double)}
 	 *
