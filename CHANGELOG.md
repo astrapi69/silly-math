@@ -9,6 +9,14 @@ ADDED:
 - new methods for the factorial for int and long values
 - new test dependency lombok in version 1.18.30
 
+CHANGED:
+
+- update of gradle to new version 8.6-rc-3
+- update dependency of com.github.ben-manes.versions.gradle.plugin to new version 0.51.0
+- update of gradle-plugin dependency of 'com.diffplug.spotless:spotless-plugin-gradle' in version 6.25.0
+- update of test dependency junit-juniper-api to new version 5.10.1
+- update of test dependency junit-platform-launcher to new version 5.10.1
+
 Version 2.3
 -------------
 
