@@ -1,4 +1,6 @@
 dependencies {
+    testCompileOnly("org.projectlombok:lombok:$lombokVersion")
+    testAnnotationProcessor("org.projectlombok:lombok:$lombokVersion")
     testImplementation("com.github.meanbeanlib:meanbean:$meanbeanVersion")
     testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:$junitPlatformLauncherVersion")

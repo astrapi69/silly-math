@@ -7,7 +7,7 @@ Version 2.4-SNAPSHOT
 ADDED:
 
 - new methods for the factorial for int and long values
-
+- new test dependency lombok in version 1.18.30
 
 Version 2.3
 -------------
