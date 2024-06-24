@@ -5,9 +5,9 @@ gradle-plugin-lombok-version = "8.6"
 gradle-plugin-spotless-version = "7.0.0.BETA1"
 gradle-plugin-version-catalog-update-version = "0.8.4"
 gradle-plugin-versions-version = "0.51.0"
-junit-jupiter-version = "5.10.1"
-junit-platform-launcher-version = "1.10.1"
-lombok-version = "1.18.30"
+junit-jupiter-version = "5.11.0-M2"
+junit-platform-launcher-version = "1.11.0-M2"
+lombok-version = "1.18.32"
 meanbean-version = "3.0.0-M9"
 
 [libraries]

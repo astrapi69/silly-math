@@ -8,16 +8,17 @@ ADDED:
 
 - new libs.versions.toml file for new automatic catalog versions update
 - new methods for the factorial for int and long values
-- new test dependency lombok in version 1.18.30
+- new test dependency lombok in version 1.18.32
+- new gradle-plugin id 'io.freefair.lombok' in version 8.6
 
 CHANGED:
 
 - update to jdk version 17
-- update of gradle to new version 8.6-rc-3
+- update of gradle to new version 8.8
 - update dependency of com.github.ben-manes.versions.gradle.plugin to new version 0.51.0
-- update of gradle-plugin dependency of 'com.diffplug.spotless:spotless-plugin-gradle' in version 6.25.0
-- update of test dependency junit-juniper-api to new version 5.10.1
-- update of test dependency junit-platform-launcher to new version 5.10.1
+- update of gradle-plugin dependency of 'com.diffplug.spotless:spotless-plugin-gradle' in version 7.0.0.BETA1
+- update of test dependency junit-juniper-api to new version 5.11.0-M2
+- update of test dependency junit-platform-launcher to new version 1.11.0-M2
 
 Version 2.3
 -------------
