@@ -19,6 +19,7 @@ CHANGED:
 - update of gradle-plugin dependency of 'com.diffplug.spotless:spotless-plugin-gradle' in version 7.0.0.BETA1
 - update of test dependency junit-juniper-api to new version 5.11.0-M2
 - update of test dependency junit-platform-launcher to new version 1.11.0-M2
+- replaced obsolete package.html with package-info.java files
 
 Version 2.3
 -------------
