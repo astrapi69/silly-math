@@ -5,7 +5,7 @@
 [![Java CI with Gradle](https://github.com/astrapi69/silly-math/actions/workflows/gradle.yml/badge.svg)](https://github.com/astrapi69/silly-math/actions/workflows/gradle.yml)
 [![Coverage Status](https://codecov.io/gh/astrapi69/silly-math/branch/develop/graph/badge.svg)](https://codecov.io/gh/astrapi69/silly-math)
 [![Open Issues](https://img.shields.io/github/issues/astrapi69/silly-math.svg?style=flat)](https://github.com/astrapi69/silly-math/issues)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/silly-math/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/silly-math)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.astrapi69/silly-math)](https://central.sonatype.com/artifact/io.github.astrapi69/silly-math)
 [![Javadocs](http://www.javadoc.io/badge/io.github.astrapi69/silly-math.svg)](http://www.javadoc.io/doc/io.github.astrapi69/silly-math)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![Donate](https://img.shields.io/badge/donate-❤-ff2244.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GVBTWLRAZ7HB8)
@@ -29,9 +29,7 @@ applications.
 
 ## Maven dependency
 
-Maven dependency is now on sonatype. Check
-out [sonatype repository](https://oss.sonatype.org/index.html#nexus-search;gav~io.github.astrapi69~silly-math~~~)
-for latest snapshots and releases.
+The library is on Maven Central. Check out [Maven Central](https://central.sonatype.com/artifact/io.github.astrapi69/silly-math) for the latest release.
 
 Add the following maven dependency to your project `pom.xml` if you want to import the core
 functionality of silly-math:
@@ -144,7 +142,7 @@ Open Source:
 
 ## Credits
 
-|**Nexus Sonatype repositories**|
+|**Maven Central**|
 |     :---:      |
 |![sonatype repository](https://avatars1.githubusercontent.com/u/33330803?s=200&v=4)|
 |Special thanks to [sonatype repository](https://www.sonatype.com) for providing a free maven repository service for open source projects|
